@@ -54,7 +54,7 @@ def tiempo_mas_rapido (tiempo_salas:list) -> int:
 # requiere: {Hay por lo menos una sala en amigos_por_salas}
 # requiere: {Hay 4 amigos en amigos_por_salas}
 # requiere: {Todos los tiempos en cada sala de amigos_por_salas están entre 0 y 61 inclusive}
-# asegura: {La longitud de res es menor igual que la longitud de amigos_por_salas}
+# asegura: {La longitud de res es menor igual que la longitud de amigos_por_salas}}
 # asegura: {Por cada sala en amigos_por_salas cuyo primer, segundo y cuarto valor sea 0, y el tercer valor sea distinto de 0, la posición de dicha sala en amigos_por_salas debe aparecer res}
 # asegura: {Para todo i pertenciente a res se cumple que el primer, segundo y cuarto valor de amigos_por_salas[i] es 0, y el tercer valor es distinto de 0}
 
